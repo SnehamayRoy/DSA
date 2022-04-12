@@ -21,8 +21,15 @@
 
 
 int main(){
-    int arr[4]={1,2,5,1};
-    int n =4;
-    cout<< peakIndexInMountainArray(arr,n);
+   
+   int n;
+   cin>>n;
+   int arr [n];
+   for (int i = 0; i < n; i++)
+   {
+       cin>>arr[i];
+   }
+    cout<< peakIndexInMountainArray(arr,n)<<endl;
+    cout<<arr[peakIndexInMountainArray(arr,n)];
     return 0;
 }
