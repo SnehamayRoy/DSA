@@ -46,14 +46,14 @@ int binarysearch(int arr[],int s,int e,int key){
 
 
 int main(){
-   
-   int n;
+    int n;
    cin>>n;
    int arr [n];
    for (int i = 0; i < n; i++)
   {
         cin>>arr[i];
     }
+  
     int key ;
     cin>>key;
     int g= getpivot(arr,n);
